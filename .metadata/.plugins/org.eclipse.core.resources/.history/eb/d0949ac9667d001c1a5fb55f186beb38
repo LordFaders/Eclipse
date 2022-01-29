@@ -1,0 +1,24 @@
+package com.desafiolatam;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.logging.Logger;
+
+import org.junit.jupiter.api.Test;
+
+public class ImcTest {
+	
+private static Logger logger =Logger.getLogger("");
+	
+
+@Test	
+public void validarEdad() {
+		
+		logger.info("IMC");
+	    Imc calculo = new Imc();
+	    Integer resultado = calculo.validarEdad();
+	    //clases assert
+	    assertEquals(18, resultado);
+	}
+
+}

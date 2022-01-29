@@ -1,0 +1,12 @@
+package com.desafiolatam;
+
+import org.junit.Test;
+
+public class EquipoFutbolTest {
+
+	@Test
+	public void juegosGanados() {
+		EquipoFutbol equipoFutbol = new EquipoFutbol(5);
+		Integer ganados = equipoFutbol.getJuegosGanados();
+	}
+}

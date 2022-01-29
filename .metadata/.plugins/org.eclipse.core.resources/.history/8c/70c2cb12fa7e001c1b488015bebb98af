@@ -1,0 +1,29 @@
+package com.desafiolatam;
+
+public class EquipoFutbol {
+	
+	
+	private Integer juegosGanados;
+
+	public EquipoFutbol(Integer juegosGanados) {
+		super();
+		this.juegosGanados = juegosGanados;
+	}
+
+	public EquipoFutbol() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Integer getJuegosGanados() {
+		return juegosGanados;
+	}
+
+	public Integer getJuegosPerdidos() {
+		return null;
+	}
+
+	
+	
+	
+
+}

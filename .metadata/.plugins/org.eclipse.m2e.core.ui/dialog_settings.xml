@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/jaime/eclipse-workspace/Calculadora"/>
+			<item value="/Users/jaime/eclipse-workspace/AnchorBooks"/>
+			<item value="/Users/jaime/eclipse-workspace/MirandoElPasado"/>
+			<item value="/Users/jaime/eclipse-workspace/MockitoTest"/>
+			<item value="/Users/jaime/eclipse-workspace/PruebasMaveG6"/>
+			<item value="/Users/jaime/eclipse-workspace/PruebasMaveG6/src/test/java/com/desafiolatam/AppTest.java"/>
+			<item value="/Users/jaime/eclipse-workspace/MirandoElPasado/src/mirando/El/Pasado/Marcas.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.desafiolatam"/>
+			<item value="com.desafiolatam.org.apache.maven"/>
+		</list>
+		<list key="groupId">
+			<item value="com.desafiolatam"/>
+		</list>
+		<list key="artifactId">
+			<item value="CalculadoraTdd"/>
+			<item value="Calculadora"/>
+			<item value="AnchorBooks"/>
+			<item value="GS-TDD"/>
+			<item value="MockitoTest"/>
+			<item value="imc"/>
+			<item value="org.apache.maven"/>
+			<item value="PruebasMaveG6"/>
+			<item value="MavenG6"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="494"/>
+		<item key="x" value="2160"/>
+		<item key="y" value="211"/>
+	</section>
+</section>

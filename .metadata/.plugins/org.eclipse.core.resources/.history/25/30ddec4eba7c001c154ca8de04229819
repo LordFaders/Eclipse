@@ -1,0 +1,24 @@
+package mirando.El.Pasado;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Pasado {
+
+	public static void main(String[] args) {
+		
+		Set<String> marcasHashSet = new HashSet<String>();
+		marcasHashSet.add("Viceroy");
+		marcasHashSet.add("Free");
+		marcasHashSet.add("Compaq");
+		marcasHashSet.add("NetScape");
+		marcasHashSet.add("Pan Am");
+		marcasHashSet.add("Ares");
+		marcasHashSet.add("Napster");
+		marcasHashSet.add("Nokia");
+		marcasHashSet.add("BlackBerry");
+		marcasHashSet.add("Saab");
+		
+	}
+
+}

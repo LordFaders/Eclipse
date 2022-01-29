@@ -1,0 +1,19 @@
+package reciclaJeans.main;
+
+import reciclaJeans.general.ArchivoServicio;
+import reciclaJeans.models.ProductoServicio;
+
+public class MainRecicla {
+
+	public static void main(String[] args) {
+
+		ArchivoServicio archivoServicio = new ArchivoServicio();
+		ProductoServicio productoServicio = new ProductoServicio();
+
+		productoServicio.setListaProductos(archivoServicio.cargarDatos());
+		
+		productoServicio.listarProductos();
+
+	}
+
+}

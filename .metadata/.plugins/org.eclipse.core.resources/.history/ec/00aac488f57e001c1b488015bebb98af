@@ -1,0 +1,15 @@
+package com.desafiolatam;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class EquipoFutbolTest {
+
+	@Test
+	public void juegosGanados() {
+		EquipoFutbol equipoFutbol = new EquipoFutbol(5);
+		Integer ganados = equipoFutbol.getJuegosGanados();
+		assertEquals(5, ganados);
+	}
+}

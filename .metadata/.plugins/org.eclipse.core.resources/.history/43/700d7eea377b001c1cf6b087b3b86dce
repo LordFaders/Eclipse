@@ -1,0 +1,50 @@
+package reciclaJeans.models;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ProductoServicio {
+
+	Scanner sc = new Scanner(System.in);
+
+	private ArrayList<Producto> listaProductos; 
+
+	public ProductoServicio() {
+		super();
+		listaProductos = new ArrayList<Producto>();
+	}
+
+	public ProductoServicio(ArrayList<Producto> listaProductos) {
+		super();
+		listaProductos = new ArrayList<Producto>();
+	}
+
+	public ArrayList<Producto> getListaProductos() {
+		return listaProductos;
+	}
+
+	public void setListaProductos(ArrayList<Producto> listaProductos) {
+		this.listaProductos = listaProductos;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductoServicio [listaProductos=" + listaProductos + "]";
+	}
+
+	public void listarProductos() {
+		for (Producto productoListado : listaProductos) {
+			System.out.println("Datos del producto: ");
+			System.out.println("Nombre: " + productoListado.getArticulo());
+			System.out.println("Precio: " + productoListado.getPrecio());
+			System.out.println("Descripción: " + productoListado.getDescripcion());
+			System.out.println("Código: " + productoListado.getCodigo());
+			System.out.println("Talla: " + productoListado.getTalla());
+			System.out.println("Marca: " + productoListado.getMarca());
+			System.out.println("Color: " + productoListado.getColor());
+
+		}
+
+	}
+
+}

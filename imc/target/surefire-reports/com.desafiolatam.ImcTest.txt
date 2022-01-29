@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.desafiolatam.ImcTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in com.desafiolatam.ImcTest
+calcularIMCNull(com.desafiolatam.ImcTest)  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <24.69136>
+	at com.desafiolatam.ImcTest.calcularIMCNull(ImcTest.java:49)
+
+calcularIMCEquals(com.desafiolatam.ImcTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <24.69> but was: <24.69136>
+	at com.desafiolatam.ImcTest.calcularIMCEquals(ImcTest.java:72)
+

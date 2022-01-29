@@ -1,0 +1,11 @@
+package com.desafiolatam;
+
+public class Pitagoras {
+	
+	public double obtenerHipotenusa(Integer a, Integer b) {
+		Double h = Math.sqrt((a*a) + (b*b));
+		System.out.println("El valor de la hipotenusa es: " + h);
+		return h;
+	}
+
+}

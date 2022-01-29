@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;MirandoElPasado/src/mirando.El.Pasado.models&apos;&#x0A;- Original project: &apos;MirandoElPasado&apos;&#x0A;- Destination element: &apos;MirandoElPasado/src/mirando.El.Pasado.models&apos;&#x0A;- Original elements:&#x0A;     mirando.El.Pasado.Marcas.java&#x0A;     mirando.El.Pasado.Invitados.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;mirando.El.Pasado.models" element1="/src&lt;mirando.El.Pasado{Marcas.java" element2="/src&lt;mirando.El.Pasado{Invitados.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1643165202414" units="2" version="1.0"/>
+</session>

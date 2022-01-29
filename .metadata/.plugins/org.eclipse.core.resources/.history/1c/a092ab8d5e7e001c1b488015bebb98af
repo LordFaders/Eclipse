@@ -1,0 +1,42 @@
+package mirando.El.Pasado;
+
+import java.text.BreakIterator;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.TreeMap;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+
+		Map<Integer, String> marcaGolosinas = new TreeMap<Integer, String>();
+		marcaGolosinas.put(100, "Chocman");
+		marcaGolosinas.put(100, "Trululú");
+		marcaGolosinas.put(100, "Centella");
+		marcaGolosinas.put(50, "Kilate");
+		marcaGolosinas.put(30, "Miti-miti");
+		marcaGolosinas.put(150, "Traga Traga");
+		marcaGolosinas.put(5, "Tabletón");
+
+		Iterator<Entry<Integer, String>> entryIterator = marcaGolosinas.entrySet().iterator();
+		while (entryIterator.hasNext()) {
+			Entry<Integer, String> entry = entryIterator.next();
+			Integer precio = entry.getKey();
+			String marca = entry.getValue();
+
+			System.out.println(marca + " a " + precio + " pesos.");
+		}
+		System.out.println();
+		
+		Iterator iterator = marcaGolosinas.keySet().iterator();
+		while (iterator.hasNext()) {
+			Integer precio = (Integer) iterator.next();
+			if (precio < 100) {
+
+			}
+			
+
+		}
+	}
+}

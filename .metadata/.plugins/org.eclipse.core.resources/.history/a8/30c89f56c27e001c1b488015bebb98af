@@ -1,0 +1,50 @@
+package com.desafiolatam;
+
+import java.util.Scanner;
+
+public class Menu {
+
+	public void menu1() {
+		Scanner sc = new Scanner(System.in);
+		int opcion = 0;
+
+		Calculadora calculadora = new Calculadora();
+
+		System.out.println("Elija la operación que desea realizar:");
+
+		do {
+			System.out.println("1 Sumar");
+			System.out.println("2 Restar");
+			System.out.println("3 Multiplicar");
+			System.out.println("4 Dividir");
+			System.out.println("5 Salir");
+			opcion = sc.nextInt();
+			sc.nextLine();
+
+			switch (opcion) {
+			case 1:
+				calculadora.sumar();
+				break;
+			case 2:
+				calculadora.restar();
+				break;
+			case 3:
+				calculadora.multiplicacion();
+				break;
+			case 4:
+				calculadora.division();
+				break;
+			case 5:
+				// utilidad.sleep();
+				System.out.println("Abandonando el sistema de clientes");
+				// utilidad.sleep();
+				// utilidad.limpieza();
+				System.out.println("Acaba de salir del sistema");
+				break;
+
+			}
+
+		} while (opcion >= 1 && opcion <= 4);
+
+	}
+}

@@ -1,0 +1,29 @@
+package com.desafiolatam;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.logging.Logger;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	private static Logger logger = Logger.getLogger("");
+
+	@Test
+	public void sumar() {
+		logger.info("Calculadora");
+		Calculadora calculo = new Calculadora();
+		float resultado = calculo.sumar(10,20);
+		assertEquals(0,resultado);
+	}
+
+	@Test
+	public void restar() {
+		logger.info("Calculadora");
+		Calculadora calculo = new Calculadora();
+		float resultado = calculo.restar(10,20);
+		assertEquals(0, resultado);
+	}
+}

@@ -1,0 +1,68 @@
+package com.desafiolatam;
+
+import java.util.Scanner;
+
+public class Menu {
+
+	public void menu1() {
+		Scanner sc = new Scanner(System.in);
+		int opcion = 0;
+
+		Calculadora calculadora = new Calculadora();
+
+		System.out.println("Elija la operación que desea realizar:");
+		System.out.println("--------------------------------------");
+		System.out.println();
+
+		do {
+			System.out.println("1 Sumar");
+			System.out.println("2 Restar");
+			System.out.println("3 Multiplicar");
+			System.out.println("4 Dividir");
+			System.out.println("5 Salir");
+			opcion = sc.nextInt();
+			sc.nextLine();
+
+			switch (opcion) {
+			case 1:
+				System.out.println("Suma");
+				System.out.println("----");
+				calculadora.sumar();
+				System.out.println();
+				break;
+			case 2:
+				System.out.println("Resta");
+				System.out.println("----");
+				calculadora.restar();
+				System.out.println();
+				break;
+			case 3:
+				System.out.println("Multiplicación");
+				System.out.println("--------------");
+				calculadora.multiplicacion();
+				System.out.println();
+				break;
+			case 4:
+				System.out.println("Division");
+				System.out.println("--------");
+				calculadora.division();
+				System.out.println();
+				break;
+			case 5:
+				try {
+					Thread.sleep(3500);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				for (int i = 0; i < 10; i++) {
+					System.out.println("\n");
+				}
+				System.out.println("Acaba de salir de la calculadora");
+				break;
+
+			}
+
+		} while (opcion >= 1 && opcion <= 4);
+
+	}
+}

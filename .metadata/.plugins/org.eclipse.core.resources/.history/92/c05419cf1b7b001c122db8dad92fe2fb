@@ -1,0 +1,17 @@
+package com.desafiolatam;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.Test;
+
+public class TestPitagoras {
+
+	@Test
+	public void validarPitagoras() {
+		// c^2 = a^2 + b^2
+		Pitagoras pitagoras = new Pitagoras ();
+        Double hipo = pitagoras.obtenerHipotenusa(5,4);
+        assertEquals(5.0, hipo);
+
+	}
+}

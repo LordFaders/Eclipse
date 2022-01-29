@@ -1,0 +1,25 @@
+package com.desafiolatam;
+
+public class EquipoFutbol {
+	
+	
+	private Integer juegosGanados;
+
+	public EquipoFutbol(Integer juegosGanados) {
+		super();
+		this.juegosGanados = juegosGanados;
+	}
+
+	public Integer getJuegosGanados() {
+		return juegosGanados;
+	}
+
+	public Integer getJuegosPerdidos() {
+		return null;
+	}
+
+	
+	
+	
+
+}

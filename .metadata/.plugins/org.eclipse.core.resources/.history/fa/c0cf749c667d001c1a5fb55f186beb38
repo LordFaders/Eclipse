@@ -1,0 +1,19 @@
+package com.desafiolatam;
+
+import java.util.logging.Logger;
+
+public class ImcTest {
+	
+private static Logger logger =Logger.getLogger("");
+	
+
+	public void validarEdad() {
+		
+		logger.info("IMC");
+	    Imc calculo = new Imc();
+	    Integer resultado = calculo.validarEdad();
+	    //clases assert
+	    assertEquals(25, resultado);
+	}
+
+}

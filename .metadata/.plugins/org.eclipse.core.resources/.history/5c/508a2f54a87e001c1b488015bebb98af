@@ -1,0 +1,22 @@
+package com.desafiolatam;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ConsumirApi consumirApi = new ConsumirApi();
+        consumirApi.obtenerListaDeLibros();
+        
+        System.out.println();
+        
+        consumirApi.librosAutorTitulo();
+        
+        System.out.println();
+        
+        consumirApi.librosIndice();
+        
+        System.out.println();
+        
+        consumirApi.detalleLibros();
+    }
+}

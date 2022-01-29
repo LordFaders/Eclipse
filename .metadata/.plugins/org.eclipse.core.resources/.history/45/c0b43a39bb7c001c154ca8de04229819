@@ -1,0 +1,25 @@
+package mirando.El.Pasado;
+
+import java.util.ArrayList;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> marcas = new ArrayList<>();
+		marcas.add("Viceroy");
+		marcas.add("Free");
+		marcas.add("Compaq");
+		marcas.add("NetScape");
+		marcas.add("Pan Am");
+		marcas.add("Ares");
+		marcas.add("Napster");
+		marcas.add("Nokia");
+		marcas.add("BlackBerry");
+		marcas.add("Saab");
+		
+		System.out.println(marcas);
+		
+	}
+
+}

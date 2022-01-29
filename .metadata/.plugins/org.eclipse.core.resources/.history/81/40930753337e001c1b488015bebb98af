@@ -1,0 +1,32 @@
+package com.desafiolatam;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import org.junit.Test;
+import modelos.Persona;
+import repositorios.PersonaRepositorio;
+
+public class PersonaRepositorioTest {
+
+	private PersonaRepositorio personaRepositorio = mock(PersonaRepositorio.class);
+
+	@Test
+	public void testCrearPersona() {
+		Persona pepe = new Persona("1-2", "Pepe");
+		when(personaRepositorio.crearPersona(pepe)).thenReturn("NOK");
+		
+		//String crearPersonaRes = personaRepositorio.crearPersona(pepe);
+		//assertEquals("OK", crearPersonaRes);
+		verify(personaRepositorio).crearPersona(pepe);
+		
+		
+	}	
+		@Test
+		public void testActualizarPersona() {
+			Persona pepe = new Persona("1-2", "Pepe");
+			when(personaRepositorio.actualizarPersona(pepe)).thenReturn("NOK");
+
+	}
+		
+}

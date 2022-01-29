@@ -1,0 +1,27 @@
+package com.desafiolatam;
+
+import java.util.InputMismatchException;
+
+public class Calculadora {
+
+
+	public Double sumar(double d, double e) {
+		Double numero1 = 0d;
+		Double numero2 = 0d;
+		Double resultado = 0d;
+		
+		try {
+			if (numero1 != null || numero2 != null);
+			resultado = numero1 + numero2;
+		} catch (InputMismatchException ime) {
+			System.out.println("Debe ingresar solo números. No se permiten letras ni caracteres especiales");
+		} catch (NullPointerException npe) {
+			resultado = 1d;
+		}
+		System.out.println("El resultado de la suma es: " + resultado);
+		return resultado;
+
+	}
+
+	
+}

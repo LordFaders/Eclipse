@@ -1,0 +1,9 @@
+package com.desafiolatam;
+
+import static org.mockito.Mockito.mock;
+
+public class PersonaRepositorioTest {
+	
+	private PersonaRepositorioTest personaRepositorioTest = mock(PersonaRepositorioTest.class);
+
+}

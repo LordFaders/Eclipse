@@ -1,0 +1,20 @@
+package com.desafiolatam;
+
+import static org.junit.Assert.assertTrue;
+
+import java.util.logging.Logger;
+
+import org.junit.Test;
+
+public class AppTest 
+{
+    
+    public static Logger logger = Logger.getLogger("com.desafiolatam.AppTest");
+    
+    @Test
+    public void shouldAnswerWithTrue()
+    {
+    	logger.info("Por fin se soluciono el cacho");
+    	assertTrue( false );
+    }
+}

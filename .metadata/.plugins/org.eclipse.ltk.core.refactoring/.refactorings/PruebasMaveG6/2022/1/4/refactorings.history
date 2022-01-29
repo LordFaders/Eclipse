@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Pitagoras.java&apos; to &apos;PruebasMaveG6/src/main/java/com.desafiolatam&apos;&#x0A;- Original project: &apos;PruebasMaveG6&apos;&#x0A;- Destination element: &apos;PruebasMaveG6/src/main/java/com.desafiolatam&apos;&#x0A;- Original element: &apos;com.desafiolatam.Pitagoras.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.desafiolatam" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.desafiolatam{Pitagoras.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1642811046642" units="1" version="1.0"/>
+</session>

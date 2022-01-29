@@ -1,0 +1,24 @@
+package mirando.El.Pasado;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		
+		Map<String, Integer> marcaGolosinas = new HashMap<String, Integer>();
+		marcaGolosinas.put("Chocman", 100);
+		marcaGolosinas.put("Trululú", 100);
+		marcaGolosinas.put("Centella", 100);
+		marcaGolosinas.put("Chocman", 100);
+		marcaGolosinas.put("Kilate", 50);
+		marcaGolosinas.put("Traga Traga", 150);
+		marcaGolosinas.put("Tabletón", 5);
+		
+		System.out.println(marcaGolosinas);
+		
+
+	}
+
+}

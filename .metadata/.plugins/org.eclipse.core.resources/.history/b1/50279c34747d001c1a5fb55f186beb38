@@ -1,0 +1,74 @@
+package com.desafiolatam;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
+
+import java.util.logging.Logger;
+
+import org.junit.Test;
+
+public class ImcTest {
+
+	private static Logger logger = Logger.getLogger("");
+
+	@Test
+	public void validarEdad() {
+
+		logger.info("IMC");
+		Imc calculo = new Imc();
+		Integer resultado = calculo.validarEdad(18);
+		// clases assert
+		assertEquals(18, resultado);
+	}
+
+	@Test
+	public void obtenerEstaura() {
+
+		logger.info("IMC");
+		Imc calculo = new Imc();
+		Float resultado = calculo.obtenerEstatura(1.80f);
+		assertNotNull(resultado);
+
+	}
+
+	@Test
+	public void obtenerKilos() {
+		logger.info("IMC");
+		Imc calculo = new Imc();
+		Float resultado = calculo.obtenerKilos(80f);
+		assertNotEquals(0, resultado);
+	}
+
+	@Test
+	public void calcularIMCNull() {
+		logger.info("IMC");
+		Imc calculo = new Imc();
+		Float resultado = calculo.calcularIMC(1f, 1f);
+		assertNull(resultado);
+	}
+
+	@Test
+	public void calcularIMCnotNull() {
+		logger.info("IMC");
+		Imc calculo = new Imc();
+		Float resultado = calculo.calcularIMC(80f, 0f);
+		assertNotNull(resultado);
+	}
+	
+	@Test
+	public void calcularIMCnotEquals() {
+		logger.info("IMC");
+		Imc calculo = new Imc();
+		Float resultado = calculo.calcularIMC(80f, 1.80f);
+		assertNotEquals(0f, resultado);
+	}
+	@Test
+	public void calcularIMCEquals() {
+		logger.info("IMC");
+		Imc calculo = new Imc();
+		Float resultado = calculo.calcularIMC(80f, 1.80f);
+		assertEquals(24.69f, resultado);
+}
+}

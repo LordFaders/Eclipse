@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.desafiolatam.PersonaRepositorioTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.951 s <<< FAILURE! - in com.desafiolatam.PersonaRepositorioTest
+testEliminarPersona(com.desafiolatam.PersonaRepositorioTest)  Time elapsed: 0.029 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <OK> but was: <null>
+	at com.desafiolatam.PersonaRepositorioTest.testEliminarPersona(PersonaRepositorioTest.java:44)
+
+testCrearPersona(com.desafiolatam.PersonaRepositorioTest)  Time elapsed: 0.014 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+personaRepositorio.crearPersona(
+    Persona [rut=1-2, nombre=Pepe]
+);
+-> at com.desafiolatam.PersonaRepositorioTest.testCrearPersona(PersonaRepositorioTest.java:26)
+Actually, there were zero interactions with this mock.
+
+	at com.desafiolatam.PersonaRepositorioTest.testCrearPersona(PersonaRepositorioTest.java:26)
+
+testActualizarPersona(com.desafiolatam.PersonaRepositorioTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+personaRepositorio.crearPersona(
+    Persona [rut=1-2, nombre=Pepe]
+);
+-> at com.desafiolatam.PersonaRepositorioTest.testActualizarPersona(PersonaRepositorioTest.java:35)
+Actually, there were zero interactions with this mock.
+
+	at com.desafiolatam.PersonaRepositorioTest.testActualizarPersona(PersonaRepositorioTest.java:35)
+
