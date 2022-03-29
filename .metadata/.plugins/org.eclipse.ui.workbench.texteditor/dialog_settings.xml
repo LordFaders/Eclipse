@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="artifact"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="com.desafio"/>
+			<item value="value"/>
+			<item value="fileName1"/>
+			<item value="elementoProd"/>
 			<item value="artifact"/>
 			<item value="HashSet"/>
 			<item value="ABuscar"/>
@@ -16,6 +20,7 @@
 			<item value=""/>
 		</list>
 		<list key="replacehistory">
+			<item value="datosCliente"/>
 			<item value=""/>
 			<item value="AEditar"/>
 			<item value="private"/>

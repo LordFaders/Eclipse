@@ -1,8 +1,0 @@
-package com.desafiolatam;
-
-public class EquipoFutbol {
-	
-	
-	private Integer juegosGanados;
-
-}

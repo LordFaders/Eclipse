@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/jaime/eclipse-workspace/.git\:
-GitRepositoriesView.GitDirectories.relative=.git\:
+GitRepositoriesView.GitDirectories=/Users/jaime/eclipse-workspace/.git\:/Users/jaime/git/prueba_productos_de_limpieza/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:/Users/jaime/git/prueba_productos_de_limpieza/.git\:
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
